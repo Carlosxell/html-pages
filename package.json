@@ -1,0 +1,14 @@
+{
+  "name": "projetohtml",
+  "version": "1.0.0",
+  "description": "Projeto que devia ter sido feito com bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Augusto",
+  "license": "ISC",
+  "dependencies": {
+    "spectre.css": "^0.5.8"
+  }
+}
