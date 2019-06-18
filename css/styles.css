@@ -1,0 +1,23 @@
+.content,
+.content--login {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content--login {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  max-width: 568px;
+  min-height: 100vh;
+}
+
+.formContent {
+  border: 1px solid mediumpurple;
+  border-radius: 4px;
+  padding: 10px 10px 20px;
+  width: 100%;
+}
+
+@media(min-width: 768px) {}
