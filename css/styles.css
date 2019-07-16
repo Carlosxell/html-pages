@@ -1,8 +1,17 @@
 .content,
-.content--login {
-  max-width: 768px;
+.content--login,
+.content--view {
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.content,
+.content--login {
+  max-width: 768px;
+}
+
+.content--view {
+  max-width: 992px;
 }
 
 .content--login {
@@ -17,7 +26,6 @@
   border: 1px solid mediumpurple;
   border-radius: 4px;
   padding: 10px 10px 20px;
-  width: 100%;
 }
 
 @media(min-width: 768px) {}

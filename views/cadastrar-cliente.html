@@ -2,26 +2,55 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>Projeto de faculdade baseado em frameworks</title>
+  <title>Projeto de faculdade baseado em frameworks - Tela de dashboard</title>
   <link crossorigin="anonymous"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         rel="stylesheet" />
-  <link href="css/styles.css" rel="stylesheet" />
+  <link href="../css/styles.css" rel="stylesheet" />
 </head>
 <body>
-<main class="content--login container">
+
+<main class="content--view mt-5">
   <form action="GET" autocomplete="off" class="formContent row" novalidate>
     <div class="col-12">
+      <div class="form-group">
+        <label class="" for="nome">Nome</label>
+        <input class="form-control form-control-sm" type="text" id="nome" placeholder="Ex: José da Silva" />
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-4">
+      <div class="form-group">
+        <label class="" for="cpf">CPF</label>
+        <input class="form-control form-control-sm" type="text" id="cpf" placeholder="000.000.000-00" />
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-4">
+      <div class="form-group">
+        <label class="" for="telefone">Telefone</label>
+        <input class="form-control form-control-sm" type="text" id="telefone" placeholder="(00) 00000-0000" />
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-4">
       <div class="form-group">
         <label class="" for="email">E-mail</label>
         <input class="form-control form-control-sm" type="text" id="email" placeholder="Ex: jose.teste@gmail.com" />
       </div>
     </div>
 
-    <div class="col-12">
+    <div class="col-12 col-sm-6">
       <div class="form-group">
         <label class="" for="password">Senha</label>
+        <input class="form-control form-control-sm" type="password" id="password" placeholder="* * * * * *" />
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6">
+      <div class="form-group">
+        <label class="" for="password">Confirme a Senha</label>
         <input class="form-control form-control-sm" type="password" id="password" placeholder="* * * * * *" />
       </div>
     </div>
@@ -29,18 +58,20 @@
     <div class="col-12">
       <div class="row no-gutters justify-content-end">
         <div class="d-inline-block">
-          <a class="btn btn-sm btn-link" href="./views/cadastrar-cliente.html">Cadastrar</a>
+          <a class="btn btn-sm btn-outline-secondary mr-1" href="../index.html">Voltar</a>
         </div>
 
-        <div class="d-inline-block ml-1">
-          <a class="btn btn-sm btn-primary" href="./views/dashboard.html">Entrar</a>
+        <div class="d-inline-block">
+          <a class="btn btn-sm btn-primary" href="../views/dashboard.html">Enviar Cadastro</a>
         </div>
       </div>
     </div>
   </form>
 </main>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
