@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed31f673-e37e-453c-ab81-7c7bc24649ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/novo-cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cadastrar-cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/cadastrar-cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/novo-cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/novo-cliente.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/novo-cliente.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+            <state relative-caret-position="406">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -193,12 +189,12 @@
       <workItem from="1563231705331" duration="452000" />
       <workItem from="1563232978143" duration="4601000" />
       <workItem from="1563406608548" duration="3040000" />
-      <workItem from="1563460948994" duration="2700000" />
+      <workItem from="1563460948994" duration="2842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17063000" />
+    <option name="totallyTimeSpent" value="17205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -286,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/novo-cliente.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+        <state relative-caret-position="406">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
         </state>
       </provider>
     </entry>
