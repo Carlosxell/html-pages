@@ -12,8 +12,14 @@
 <body>
 
 <main class="content--view">
-  <header class="header">
-    <h1 class="header_title">Dashboard</h1>
+  <header class="header d-flex justify-content-between">
+    <h1 class="header_title d-inline-block">Dashboard</h1>
+
+    <form action="POST" autocomplete="off" class="form-inline" novalidate>
+      <label class="mr-2 mb-2" for="pressao">Pressão arterial</label>
+      <input class="form-control form-control-sm formPressao mb-2 mr-sm-2 text-center" id="pressao" placeholder="Pressão arterial" value="12/8" type="text" />
+      <button type="button" class="btn btn-primary btn-sm mb-2">Atualizar</button>
+    </form>
   </header>
 
   <div class="table-responsive">
@@ -80,6 +86,12 @@
       </tr>
       </tbody>
     </table>
+  </div>
+
+  <div class="row no-gutters justify-content-end">
+    <div class="d-inline-block">
+      <a class="btn btn-sm btn-primary" href="../views/novo-cliente.html">Novo cliente</a>
+    </div>
   </div>
 </main>
 

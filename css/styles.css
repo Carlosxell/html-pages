@@ -38,4 +38,8 @@
   font-size: 24px;
 }
 
+.formPressao {
+  max-width: 60px;
+}
+
 @media(min-width: 768px) {}

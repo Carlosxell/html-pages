@@ -13,56 +13,38 @@
 
 <main class="content--view mt-5">
   <form action="GET" autocomplete="off" class="formContent row" novalidate>
-    <div class="col-12">
+    <div class="col-4 col-sm-2">
       <div class="form-group">
-        <label class="" for="nome">Nome</label>
-        <input class="form-control form-control-sm" type="text" id="nome" placeholder="Ex: José da Silva" />
+        <label class="" for="peso">Peso</label>
+        <input class="form-control form-control-sm" type="text" id="peso" placeholder="Ex: 80,800 kg" />
       </div>
     </div>
 
-    <div class="col-12 col-sm-4">
-      <div class="form-group">
-        <label class="" for="cpf">CPF</label>
-        <input class="form-control form-control-sm" type="text" id="cpf" placeholder="000.000.000-00" />
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-4">
-      <div class="form-group">
-        <label class="" for="telefone">Telefone</label>
-        <input class="form-control form-control-sm" type="text" id="telefone" placeholder="(00) 00000-0000" />
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-4">
-      <div class="form-group">
-        <label class="" for="email">E-mail</label>
-        <input class="form-control form-control-sm" type="text" id="email" placeholder="Ex: jose.teste@gmail.com" />
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6">
+    <div class="col-4 col-sm-5">
       <div class="form-group">
         <label class="" for="password">Senha</label>
-        <input class="form-control form-control-sm" type="password" id="password" placeholder="* * * * * *" />
+        <input class="form-control form-control-sm" type="password" id="password" placeholder="* * * * * *" value="123456" />
       </div>
     </div>
 
-    <div class="col-12 col-sm-6">
+    <div class="col-4 col-sm-5">
       <div class="form-group">
         <label class="" for="confirmePassword">Confirme a Senha</label>
-        <input class="form-control form-control-sm" type="password" id="confirmePassword" placeholder="* * * * * *" />
+        <input class="form-control form-control-sm" type="password" id="confirmePassword" placeholder="* * * * * *" value="123456" />
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="form-group">
+        <label class="" for="alimento">Alimentos comumente consumidos</label>
+        <textarea class="form-control form-control-sm" name="alimento" id="alimento" cols="10" rows="5" placeholder="Ex: Hamburguer com fritas, suco de laranja, etc..."></textarea>
       </div>
     </div>
 
     <div class="col-12">
       <div class="row no-gutters justify-content-end">
         <div class="d-inline-block">
-          <a class="btn btn-sm btn-outline-secondary mr-1" href="../index.html">Voltar</a>
-        </div>
-
-        <div class="d-inline-block">
-          <a class="btn btn-sm btn-primary" href="../views/dashboard.html">Enviar Cadastro</a>
+          <button class="btn btn-sm btn-primary" type="button">Cadastrar</button>
         </div>
       </div>
     </div>
